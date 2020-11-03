@@ -1,0 +1,31 @@
+{
+    "name": "create-webpack-threejs",
+    "version": "1.0.0",
+    "description": "this is threejs scaffold in webpack and es6",
+    "bin": {
+        "create-webpack-threejs": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umimori13/create-webpack-threejs.git"
+    },
+    "files": [
+        "index.js",
+        "yarn.lock",
+        "/source"
+    ],
+    "keywords": [
+        "webpack",
+        "threejs"
+    ],
+    "author": "mori",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/umimori13/create-webpack-threejs/issues"
+    },
+    "homepage": "https://github.com/umimori13/create-webpack-threejs#readme",
+    "dependencies": {
+        "commander": "^6.0.0",
+        "shelljs": "^0.8.4"
+    }
+}
