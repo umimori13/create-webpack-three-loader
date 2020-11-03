@@ -1,8 +1,11 @@
-# threejs scaffold
+# three-loader example
 
 ## Description
 
-This scaffold only has simplest function to use threejs which is the cube example for webpack
+This example is using three-loader for pointcloud reading and add functions from [potree](https://github.com/potree/potree/)
+
+-   this example can only load pointcloud with original threejs core which is separated from potree by [three-loader](https://github.com/pnext/three-loader)
+-   this example can have functions such as Eye-Dome-Lighting (EDL), clip boxes, and point choosing.
 
 # Install
 
@@ -18,7 +21,7 @@ npm install yarn -g
 and then
 
 ```bash
-npx create-webpack-threejs [folderName]
+npx create-webpack-three-loader [folderName]
 cd [folderName]
 yarn install
 yarn start
@@ -45,6 +48,10 @@ yarn start
 -   -   split chunks
 
 > You can modify the `output.publicPath` configuration in `webpack.config.prod.js` to set the url prefix for static resources.
+
+## THANKS
+
+The npmjs manage for installing for npx almost from my senior [IanYet](https://github.com/IanYet/create-webpack-slim)
 
 ## 说明
 
@@ -81,9 +88,12 @@ yarn start
 
 即可
 
-
 ### 代码功能位置
 
 点云鼠标射线与点的交点-主要在 operation.js 中
 EDL 功能主要在 edl 开头的文件中
 生成切割盒位于 clipboxes.js 中
+
+## 感谢
+
+上传至 npmjs 的方法是来源于偶的同事，感谢他([IanYet](https://github.com/IanYet/create-webpack-slim))

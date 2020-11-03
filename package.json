@@ -1,13 +1,13 @@
 {
-    "name": "create-webpack-threejs",
+    "name": "create-webpack-three-loader",
     "version": "1.0.0",
     "description": "this is threejs scaffold in webpack and es6",
     "bin": {
-        "create-webpack-threejs": "./index.js"
+        "create-webpack-three-loader": "./index.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/umimori13/create-webpack-threejs.git"
+        "url": "git+https://github.com/umimori13/create-webpack-three-loader.git"
     },
     "files": [
         "index.js",
@@ -16,14 +16,16 @@
     ],
     "keywords": [
         "webpack",
-        "threejs"
+        "threejs",
+        "potree",
+        "three-loader"
     ],
     "author": "mori",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/umimori13/create-webpack-threejs/issues"
+        "url": "https://github.com/umimori13/create-webpack-three-loader/issues"
     },
-    "homepage": "https://github.com/umimori13/create-webpack-threejs#readme",
+    "homepage": "https://github.com/umimori13/create-webpack-three-loader#readme",
     "dependencies": {
         "commander": "^6.0.0",
         "shelljs": "^0.8.4"

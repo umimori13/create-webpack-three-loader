@@ -17,10 +17,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader',
             },
-            // {
-            //     test: /\.css$/,
-            //     use: ['style-loader', 'css-loader']
-            //   },
+
             {
                 test: /\.module\.css$/,
                 use: [
@@ -94,7 +91,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Vark',
             template: __dirname + '/public/index.html',
-            favicon: __dirname + '/public/favicon.ico',
+            // favicon: __dirname + '/public/favicon.ico',
         }),
     ],
 }

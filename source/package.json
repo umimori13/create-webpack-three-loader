@@ -1,5 +1,5 @@
 {
-    "name": "three-loader-example",
+    "name": "create-webpack-three-loader",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
@@ -29,7 +29,6 @@
     "dependencies": {
         "@babel/runtime": "^7.10.5",
         "@pnext/three-loader": "^0.2.1",
-        "three": "^0.117.1",
-        "three-full": "^28.0.2"
+        "three": "^0.117.1"
     }
 }
