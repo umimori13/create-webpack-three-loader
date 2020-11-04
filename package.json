@@ -1,6 +1,6 @@
 {
     "name": "create-webpack-three-loader",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "this is threejs scaffold in webpack and es6",
     "bin": {
         "create-webpack-three-loader": "./index.js"

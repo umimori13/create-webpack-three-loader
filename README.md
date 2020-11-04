@@ -73,7 +73,7 @@ npm install yarn -g
 若已安装 yarn，可直接在根目录运行
 
 ```
-npx create-webpack-threejs [folderName]
+npx create-webpack-three-loader [folderName]
 cd [folderName]
 yarn install
 ```
